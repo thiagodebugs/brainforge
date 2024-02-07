@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should render the card 1`] = `
+<div>
+  <a
+    class="card"
+    href="/test"
+  >
+    <svg
+      role="presentation"
+      style="width: 2.25rem; height: 2.25rem;"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M20,20H4A2,2 0 0,1 2,18V6A2,2 0 0,1 4,4H20A2,2 0 0,1 22,6V18A2,2 0 0,1 20,20Z"
+        style="fill: currentColor;"
+      />
+    </svg>
+    <h3>
+      Lorem ipsum
+    </h3>
+    <p>
+      Test
+    </p>
+  </a>
+</div>
+`;

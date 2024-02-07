@@ -1,0 +1,41 @@
+.navigator {
+  @apply flex flex-col py-8 xl:pr-4 xl:max-w-60 xl:w-full items-center space-y-6;
+}
+
+.profile {
+  @apply hidden xl:flex flex-col items-center text-center space-y-6;
+}
+
+.profile img {
+  @apply rounded-full border-2 border-[#26c666];
+}
+
+.profile h1 {
+  @apply font-bold;
+}
+
+.profile h2 {
+  @apply text-sm text-[#26c666] font-extralight;
+}
+
+.profile h3 {
+  @apply text-sm font-semibold;
+}
+
+.btn {
+  background-color: #373737;
+  color: #26c666;
+  border-radius: 100%;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:has(img) {
+  padding: 2px;
+}
+
+.btn:hover {
+  background-color: #26c666;
+  color: #373737;
+}

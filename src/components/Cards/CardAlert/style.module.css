@@ -1,0 +1,20 @@
+.cardAlert {
+  @apply flex flex-row items-center bg-neutral-800 rounded-xl transition-all duration-300 transform border-[#26c666] hover:scale-105 hover:border-2 hover:border-[#26c666] ease-in-out w-full h-24 overflow-hidden;
+}
+
+.cardAlert img {
+  @apply max-w-40 h-full object-cover;
+}
+
+.cardAlertTitle {
+  @apply space-y-2 px-6;
+}
+
+/* ocultar resto para baixo */
+.cardAlertTitle h1 {
+  @apply font-semibold text-sm lg:text-base overflow-hidden max-h-10 lg:max-h-12;
+}
+
+.cardAlertTitle p {
+  @apply text-xs font-extralight hidden lg:block whitespace-nowrap overflow-hidden text-ellipsis max-w-sm;
+}

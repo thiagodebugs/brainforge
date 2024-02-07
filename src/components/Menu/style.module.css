@@ -1,0 +1,40 @@
+.menu {
+  @apply fixed bottom-2 px-2 xl:px-0 z-50 left-0 right-0 xl:relative w-full;
+}
+
+.menu ul {
+  @apply font-extralight text-sm  grid grid-cols-5 xl:grid-cols-1 gap-8 xl:gap-2 max-w-md xl:max-w-none mx-auto bg-[#131313] xl:bg-transparent rounded-full px-6 py-2 xl:px-0 xl:py-0;
+}
+
+.btnMenu {
+  @apply border-0 xl:border border-zinc-600 rounded-full py-1 px-3 flex justify-center items-center xl:justify-start;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnMenu li {
+  @apply flex justify-start items-center space-x-2;
+}
+
+.btnMenu li span {
+  @apply hidden xl:block;
+}
+
+.btnMenu li svg {
+  @apply w-6 h-6 xl:w-5 xl:h-5 !important;
+}
+
+.active {
+  @apply font-bold bg-[#26c666] text-white xl:text-[#26c666] xl:font-normal xl:bg-transparent border-[#26c666] border-opacity-60;
+}
+
+.active svg {
+  @apply xl:text-[#26c666];
+}
+
+.btnMenu:hover {
+  @apply font-bold bg-[#26c666] text-white;
+}
+
+.btnMenu:hover svg {
+  @apply text-white;
+}

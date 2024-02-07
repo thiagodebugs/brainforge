@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardAlert should render the card alert 1`] = `
+<div>
+  <a
+    class="cardAlert"
+    href="/test"
+  >
+    <img
+      alt="Lorem ipsum"
+      data-nimg="1"
+      decoding="async"
+      height="1080"
+      loading="lazy"
+      src="/_next/image?url=%2Fimages%2Fmonthyly.png&w=3840&q=75"
+      srcset="/_next/image?url=%2Fimages%2Fmonthyly.png&w=1080&q=75 1x, /_next/image?url=%2Fimages%2Fmonthyly.png&w=3840&q=75 2x"
+      style="color: transparent;"
+      width="1080"
+    />
+    <div
+      class="cardAlertTitle"
+    >
+      <h1>
+        Lorem ipsum
+      </h1>
+      <p>
+        Test
+      </p>
+    </div>
+  </a>
+</div>
+`;

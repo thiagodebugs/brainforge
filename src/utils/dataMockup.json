@@ -1,0 +1,118 @@
+{
+  "user": {
+    "id": 1,
+    "name": "Thiago Mendonça",
+    "role": "Desenvolvedor de Software",
+    "company": "Posy Tecnologia",
+    "avatar": "/images/profile.jpg"
+  },
+  "cardsMenu": [
+    {
+      "id": 1,
+      "title": "Plano de Carreira",
+      "description": "Veja como você pode avançar",
+      "icon": "mdiRocketLaunch",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "title": "Vagas",
+      "description": "Temos 8 Vagas disponíveis",
+      "icon": "mdiAccountSearch",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "title": "Processos",
+      "description": "Veja por aqui todos os nossos POP's",
+      "icon": "mdiCogs",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "title": "PowerBI",
+      "description": "Veja o PowerBI da Posy",
+      "icon": "mdiFinance",
+      "link": "#"
+    }
+  ],
+  "cardsRanking": [
+    {
+      "id": 1,
+      "title": "Meu progresso",
+      "tag": "V3",
+      "icon": "mdiTrophy",
+      "process": [
+        {
+          "id": 1,
+          "title": "OKR 1",
+          "progress": "80%"
+        },
+        {
+          "id": 2,
+          "title": "OKR 2",
+          "progress": "50%"
+        },
+        {
+          "id": 3,
+          "title": "OKR 3",
+          "progress": "20%"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Radar de Habilidades",
+      "tag": "",
+      "icon": "mdiTrophy",
+      "process": [
+        {
+          "id": 1,
+          "title": "Técnico Criativos",
+          "progress": "4/5"
+        },
+        {
+          "id": 2,
+          "title": "Solução de problemas",
+          "progress": "4/5"
+        },
+        {
+          "id": 3,
+          "title": "Comportamento",
+          "progress": "4/5"
+        },
+        {
+          "id": 4,
+          "title": "Inovação",
+          "progress": "3/5"
+        },
+        {
+          "id": 5,
+          "title": "Comunicação",
+          "progress": "3/5"
+        },
+        {
+          "id": 6,
+          "title": "Liderança",
+          "progress": "1/5"
+        }
+      ]
+    }
+  ],
+  "cardsAlert": [
+    {
+      "id": 1,
+      "title": "6º Deepen.JS - Aplicações modernas!",
+      "description": "🎉Prepare-se para alcançar um novo patamar!🚀✨",
+      "image": "/images/deepen-js.png",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "title": "🔔📣Atenção, muito importante!",
+      "description": "👀 Você precisa saber disso: chegou a maquina de café nova! ☕",
+      "image": "/images/warning.jpg",
+      "link": "#"
+    }
+  ]
+}

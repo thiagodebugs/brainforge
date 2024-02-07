@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardRank should render the card rank 1`] = `
+<div>
+  <div
+    class="cardRank"
+  >
+    <div
+      class="cardRankTitle"
+    >
+      <h1>
+        Test
+      </h1>
+      <h3>
+        V3
+      </h3>
+    </div>
+    <div
+      class="cardRankProcess"
+    >
+      <div
+        class="cardRankProcessTitle"
+      >
+        <h2>
+          Test
+        </h2>
+        <p>
+          2/5
+        </p>
+      </div>
+      <div
+        class="progressBar"
+      >
+        <div
+          style="width: calc(20% * 2);"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

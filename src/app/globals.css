@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+/* scroll style */
+.overflow {
+  @apply overflow-x-scroll lg:overflow-visible pb-4;
+}
+
+::-webkit-scrollbar {
+  @apply w-1 h-1;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-[#131313] rounded-full;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-[#26c66659] rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-[#198f48];
+}

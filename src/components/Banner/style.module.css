@@ -1,0 +1,20 @@
+.banner {
+  @apply h-40 overflow-hidden relative rounded-2xl;
+}
+
+.banner img {
+  @apply w-full h-40 object-cover opacity-50 grayscale;
+}
+
+.banner div {
+  @apply absolute inset-0 flex flex-col justify-center p-10 bg-neutral-800 bg-opacity-75;
+}
+
+.banner h1 {
+  @apply text-4xl font-bold;
+}
+
+.banner h3 {
+  @apply font-extralight;
+  color: #26c666;
+}
